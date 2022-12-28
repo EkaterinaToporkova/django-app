@@ -24,3 +24,6 @@ Django==4.1.4
 django-mptt==0.14.0  
 django-mptt-admin==2.3.0  
 
+Админка выглядит так:
+
+![admin](https://github.com/EkaterinaToporkova/django-app/blob/master/admin.jpg)
