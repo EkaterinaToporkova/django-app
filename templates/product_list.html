@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Продукты из категории {{title}}{% endblock %}
+
+{% block content %}
+<main>
+    <section>
+	<div class="container">
+	    <h1>Продукты из категории {{title}}</h1>
+	</div>
+    </section>
+	<div>
+		{% for product in object_list%}
+		<div>
+				<h3>{{product.name}}</h3>
+				<h3>{{product.note}}</h3>
+		</div>
+		{% endfor %}
+    </div>
+</main>
+{% endblock %}
